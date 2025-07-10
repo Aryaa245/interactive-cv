@@ -50,11 +50,11 @@ const skills = [
 ];
 const projects = [
   {
-    title: "Portfolio Website",
-    description: "Website untuk menampilkan profil, skill, dan proyek pribadi.",
-    image: "/images/portfolio.png",
-    tech: ["Vue.js", "Tailwind CSS", "JavaScript"],
-    link: "https://yourportfolio.vercel.app",
+    title: "Sistem Management Sewa Alat Camping",
+    description: "Project ini untuk membantu dalam sistem management Sewa Alat Camping atau Outdoor ",
+    image: "/images/fp1.png",
+    tech: ["C++"],
+    link: "https://github.com/Aryaa245/Sistem-Management-Peminjaman-Alat-Camping",
   },
   {
     title: "Toko Online",

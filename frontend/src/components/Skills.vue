@@ -11,6 +11,7 @@ onMounted(async () => {
     console.error(error);
   }
 });
+
 </script>
 <template>
   <section id="skill" class="py-20 bg-gray-50">

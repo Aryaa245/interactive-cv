@@ -17,7 +17,7 @@ onMounted(async () => {
     <div class="container mx-auto px-6">
       <SectionTitle title="Proyek Unggulan" />
       <div class="grid md:grid-cols-2 gap-12">
-        <div v-for="project in projects" :key="project.title" class="bg-gray-50 rounded-lg shadow-lg overflow-hidden">
+        <div v-for="project in projects" :key="project.title" class="bg-gray-50 rounded-lg shadow-lg overflow-hidden transform hover:-translate-y-3 transition-transform duration-300">
           <img :src="project.image" alt="Gambar Proyek" class="w-full h-56 object-cover" />
           <div class="p-6">
             <h3 class="text-2xl font-bold text-gray-800 mb-2">{{ project.title }}</h3>
