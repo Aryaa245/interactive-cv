@@ -15,7 +15,7 @@ const educationHistory = [
 const skills = [
   {
     name: "Vue.js",
-    level: "LanjuMahir",
+    level: "Mahir",
   },
 
   {
@@ -57,11 +57,18 @@ const projects = [
     link: "https://github.com/Aryaa245/Sistem-Management-Peminjaman-Alat-Camping",
   },
   {
-    title: "Toko Online",
-    description: "Website e-commerce sederhana dengan Vue dan API backend.",
-    image: "/images/shop.png",
-    tech: ["Vue", "PHP", "MySQL"],
-    link: "https://tokoku.netlify.app",
+    title: "Technologia",
+    description: "Website informasi terkait laptop yang membantu dalam memilih laptop berdasarkan kategori tertentu",
+    image: "/images/fp2.png",
+    tech: ["Vue", "Bootstrap", "MySQL","CI3"],
+    link: "https://github.com/ddaannuu/Project-Website-Laptop",
+  },
+    {
+    title: "Vending Machine",
+    description: "Program sederhana yang memanfaatkan c++ dengan implementasi Vending Machine",
+    image: "/images/fp3.png",
+    tech: ["C++"],
+    link: "https://github.com/Aryaa245/VendingMachine",
   },
 ];
 module.exports = { educationHistory, skills, projects };

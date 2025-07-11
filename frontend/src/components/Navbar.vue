@@ -1,5 +1,5 @@
 <template>
-  <header class="bg-white shadow-md sticky top-0 z-50 animate-fade-in">
+  <header :class="['fixed top-0 w-full z-50 transition-all duration-500', isScrolled ? 'bg-white/70 backdrop-blur-md shadow-md' : 'bg-white']">
     <nav class="container mx-auto px-6 py-4 flex justify-between items-center">
       <div class="text-2xl font-bold text-gray-800">Arya Bayu</div>
       <ul class="flex space-x-6">
@@ -14,3 +14,21 @@
     </nav>
   </header>
 </template>
+
+<script setup>
+import { ref, onMounted, onUnmounted } from "vue";
+
+const isScrolled = ref(false);
+
+const handleScroll = () => {
+  isScrolled.value = window.scrollY > 50;
+};
+
+onMounted(() => {
+  window.addEventListener("scroll", handleScroll);
+});
+
+onUnmounted(() => {
+  window.removeEventListener("scroll", handleScroll);
+});
+</script>
