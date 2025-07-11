@@ -60,10 +60,10 @@ const projects = [
     title: "Technologia",
     description: "Website informasi terkait laptop yang membantu dalam memilih laptop berdasarkan kategori tertentu",
     image: "/images/fp2.png",
-    tech: ["Vue", "Bootstrap", "MySQL","CI3"],
+    tech: ["Vue", "Bootstrap", "MySQL", "CI3"],
     link: "https://github.com/ddaannuu/Project-Website-Laptop",
   },
-    {
+  {
     title: "Vending Machine",
     description: "Program sederhana yang memanfaatkan c++ dengan implementasi Vending Machine",
     image: "/images/fp3.png",
