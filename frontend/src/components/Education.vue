@@ -11,6 +11,9 @@ onMounted(async () => {
     console.error(error);
   }
 });
+const API_URL = import.meta.env.PROD
+? '/api/education'
+: 'http://localhost:3000/api/education';
 </script>
 <template>
   <section id="pendidikan" class="py-20 bg-white">

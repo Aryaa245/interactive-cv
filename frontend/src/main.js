@@ -7,3 +7,4 @@ const app = createApp(App);
 app.directive("animate-on-scroll", animateOnScroll); // <-- Daftarkan
 app.use(router);
 app.mount("#app");
+
